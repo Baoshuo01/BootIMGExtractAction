@@ -16,6 +16,9 @@ on:
       rom_url:
         description: 'ROM 下载直链'
         required: true
+      baocunname:
+        description: '输出名称'
+        required: true
 
 jobs:
   extract_partition:
